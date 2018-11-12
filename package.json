@@ -1,0 +1,37 @@
+{
+    "name": "shopunity-cli",
+    "version": "1.0.0",
+    "description": "Command Line interface for managing Opencart projects with Shopunity",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "preferGlobal": true,
+    "bin": {
+        "shopunity": "./bin/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://dmitriyzhuk@github.com/Shopunity/shopunity-cli.git"
+    },
+    "keywords": [
+        "shopunity",
+        "opencart",
+        "extensions"
+    ],
+    "author": "Dreamvention",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Shopunity/shopunity-cli/issues"
+    },
+    "homepage": "https://github.com/Shopunity/shopunity-cli#readme",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "cli-progress": "^2.1.0",
+        "commander": "^2.19.0",
+        "inquirer": "^6.2.0",
+        "mkdirp": "^0.5.1",
+        "progress-stream": "^2.0.0",
+        "unzipper": "^0.9.4"
+    }
+}
